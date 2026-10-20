@@ -143,8 +143,3 @@ Use `"points": [ {...}, {...} ]` for many points (maximum 5000 per request). Omi
 
 [To be completed: describe the enzyme datasets, their sources and where they are stored, for example a `data/` folder with one file per enzyme and a table of original references.]
 
-
-
-## Contact
-
-[Name and email of the corresponding author]
