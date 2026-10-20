@@ -2,7 +2,6 @@
 
 A web application for predicting and optimizing enzyme activity from process parameters. It trains and compares several machine-learning models and a classical Response Surface Methodology (RSM) model on an uploaded dataset, then searches for the parameter combination that gives the highest predicted activity.
 
-> Accompanying code for the manuscript: **[Manuscript title: to be added]**
 
 ## Features
 
