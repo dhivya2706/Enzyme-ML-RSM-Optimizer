@@ -1,0 +1,13 @@
+Temperature,pH,CarbonSource,EnzymeActivity
+30,6,Glucose,120
+35,6,Glucose,150
+40,6,Glucose,165
+30,7,Starch,140
+35,7,Starch,180
+40,7,Starch,200
+30,6,Starch,130
+35,6,Starch,160
+40,6,Starch,175
+30,7,Glucose,135
+35,7,Glucose,185
+40,7,Glucose,205
