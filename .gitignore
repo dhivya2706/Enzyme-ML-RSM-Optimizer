@@ -1,0 +1,11 @@
+# Java / Maven build outputs
+GenericEnzymeOptimizer2/target/
+
+# Node.js / Vite build outputs
+GenericEnzymeOptimizer2/enzyme-dashboard/node_modules/
+GenericEnzymeOptimizer2/enzyme-dashboard/dist/
+
+# Local environment variables
+GenericEnzymeOptimizer2/enzyme-dashboard/.env
+GenericEnzymeOptimizer2/enzyme-dashboard/.env.local
+GenericEnzymeOptimizer2/enzyme-dashboard/.env.production
