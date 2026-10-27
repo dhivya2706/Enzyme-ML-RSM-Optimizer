@@ -11,11 +11,17 @@ public class CorsConfig {
 
     @Bean
     public WebMvcConfigurer corsConfigurer() {
+        String frontendOrigin = System.getenv()
+                .getOrDefault("FRONTEND_URL", "http://localhost:5173");
+
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/api/**")
-                        .allowedOrigins("http://localhost:5173")
+                        .allowedOrigins(
+                                "http://localhost:5173",
+                                frontendOrigin
+                        )
                         .allowedMethods(
                                 "GET", "POST", "PUT",
                                 "DELETE", "OPTIONS"
